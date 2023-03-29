@@ -1,0 +1,19 @@
+{
+  "n_epochs": 5,
+  "safety_gamma": 0.97,
+  "normalize_safety_advantage": false,
+  "vf_safety_coef": 0.5,
+  "normalize_advantage": false,
+  "clip_range": 0.2,
+  "learning_rate": 0.0001,
+  "ent_coef": 0.0,
+  "num_envs": 4,
+  "env_class_name": "CartSafe-v0",
+  "CombinedLoss": {
+    "safe_ratio": 0.08,
+    "confidence_threshold": 0.95,
+    "factor": 1
+  },
+  "gamma": 0.99,
+  "batch_size": 64
+}
