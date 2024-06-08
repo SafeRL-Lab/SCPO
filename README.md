@@ -30,3 +30,16 @@ Check [play.py](./play.py).
 ![Drag Racing](./graphs/benchmark/SafetyBallReach-v0.png) &nbsp;&nbsp;
 ![Drag Racing](./graphs/benchmark/SafetyBallCircle-v0.png) &nbsp;&nbsp;
 ![Drag Racing](./graphs/benchmark/CartSafe-v0.png) &nbsp;&nbsp;
+
+
+## Citation
+If you find the repository useful, please cite the study
+``` Bash
+@article{mhamed2023scpo,
+  title={SCPO: Safe Reinforcement Learning with Safety Critic Policy Optimization},
+  author={Mhamed, Jaafar and Gu, Shangding},
+  journal={arXiv preprint arXiv:2311.00880},
+  year={2023}
+}
+
+```
